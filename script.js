@@ -1,7 +1,7 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
-document.addEventListener("click", function(event) {
+document.addEventListener("touchstart", function(event) {
     jump();
 })
 
