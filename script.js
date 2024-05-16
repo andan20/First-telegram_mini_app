@@ -5,7 +5,7 @@ document.addEventListener("touchstart", function(event) {
     jump();
 })
 
-document.addEventListener("click", function(event) {
+document.addEventListener("keydown", function(event) {
     jump();
 })
 
