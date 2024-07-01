@@ -1,5 +1,5 @@
 .game {
-    width: 1000px;
+    width: 600px;
     height: 400px;
     border-bottom: 10px solid #3abb21;
     margin: auto;
@@ -21,13 +21,13 @@
     background-size: 40px 50px;
     position: relative;
     top: 260px;
-    left: 970px;
+    left: 570px;
     animation: cactusMov 2s infinite linear;
 }
 
 @keyframes cactusMov {
     0% {
-        left: 970px;
+        left: 570px;
     }
     100% {
         left: -20px;
@@ -35,21 +35,21 @@
 }
 
 .jump {
-    animation: jump 0.6s linear;
+    animation: jump 0.55s linear;
 }
 
 @keyframes jump {
     0% {
         top: 310px;
     }
-    30% {
-        top: 275px; 
+    25% {
+        top: 270px; 
     }
     50% {
         top: 230px;
     }
-    80% {
-        top: 275px; 
+    75% {
+        top: 270px; 
     }
     100% {
         top: 310px;

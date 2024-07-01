@@ -8,10 +8,11 @@ document.addEventListener("click", function(event) {
 function jump() {
     if (dino.classList != "jump") {
         dino.classList.add("jump")
+        setTimeout( function() {
+            dino.classList.remove("jump")
+        }, 550)
     }
-    setTimeout( function() {
-        dino.classList.remove("jump")
-    }, 600)
+    
 }
 
 let isAlive = setInterval( function() {
