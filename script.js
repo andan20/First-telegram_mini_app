@@ -1,14 +1,9 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
-document.addEventListener("touchstart", function(event) {
-    jump();
-})
-
 document.addEventListener("keydown", function(event) {
     jump();
 })
-
 
 function jump() {
     if (dino.classList != "jump") {
